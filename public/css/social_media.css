@@ -1,0 +1,121 @@
+.form-input-custome{
+padding:10px 16px;
+height:50px;
+width:100%;
+border:0px;
+background:#F3F3F3;
+border-radius:0px;
+line-height:25px;
+box-sizing:none;
+outline: none;
+box-shadow:none;
+font-size:12px;
+font-weight:500;
+box-sizing: 0;
+}
+.form-input-custome:active{
+border: none !important;
+outline:none !important;
+}
+.form-input-custome:focus {
+outline: none;
+box-shadow: none!important;
+}
+.form-input-custome:first-letter{
+text-transform:uppercase !important;
+}
+.social {
+margin: 20px 0 40px;
+text-align: center;
+}
+.social__item {
+display: inline-block;
+margin: 10px;
+}
+.social .fa {
+background: #fff;
+border-radius: 3px;
+color: #818181;
+cursor: pointer;
+display: block;
+font-size: 12px;
+height: 40px;
+line-height: 38px;
+position: relative;
+text-align: center;
+transition: all 0.2s;
+width: 40px;
+border:1px solid #686564;
+}
+.social .fa:after {
+color: #818181;
+content: attr(data-count);
+font-size: 14px;
+left: 0;
+line-height: 20px;
+position: absolute;
+text-align: center;
+top: 100%;
+width: 100%;
+}
+.social .fa-facebook:hover {
+box-shadow: 0 0 15px rgba(59, 89, 152, 0.5) inset;
+color: #3b5998;
+}
+.social .fa-vk:hover {
+box-shadow: 0 0 15px rgba(69, 102, 142, 0.5) inset;
+color: #45668e;
+}
+.social .fa-twitter:hover {
+box-shadow: 0 0 15px rgba(0, 172, 237, 0.5) inset;
+color: #00aced;
+}
+.social .fa-pinterest:hover {
+box-shadow: 0 0 15px rgba(203, 32, 39, 0.5) inset;
+color: #cb2027;
+}
+.social .fa-linkedin:hover {
+box-shadow: 0 0 15px rgba(0, 123, 182, 0.5) inset;
+color: #007bb6;
+}
+.social .fa-google-plus:hover {
+box-shadow: 0 0 15px rgba(221, 75, 57, 0.5) inset;
+color: #dd4b39;
+}
+.youtube {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+max-width: 100%;
+}
+.youtube iframe, .youtube object, .youtube embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.youtube__img {
+bottom: 0;
+display: block;
+left: 0;
+margin: auto;
+max-width: 100%;
+width: 100%;
+position: absolute;
+right: 0;
+top: 0;
+height: auto;
+cursor: pointer;
+}
+.youtube__play {
+height: 72px;
+width: 72px;
+left: 50%;
+top: 50%;
+margin-left: -36px;
+margin-top: -36px;
+position: absolute;
+cursor: pointer;
+}

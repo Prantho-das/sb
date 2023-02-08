@@ -1,0 +1,42 @@
+[13-Nov-2022 06:53:30 Asia/Dhaka] PHP Warning:  mysqli_connect(): (HY000/1203): User wabisabi_rana already has more than 'max_user_connections' active connections in /home1/wabisabibd/public_html/config/config.db.php on line 12
+[13-Nov-2022 06:53:30 Asia/Dhaka] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on bool in /home1/wabisabibd/public_html/config/config.db.php:13
+Stack trace:
+#0 /home1/wabisabibd/public_html/template/titles/title.content.php(2): Databases->__construct()
+#1 /home1/wabisabibd/public_html/template/pages/pages.home.php(2): include('/home1/wabisabi...')
+#2 /home1/wabisabibd/public_html/controller/controller.php(13): include('/home1/wabisabi...')
+#3 [internal function]: {closure}()
+#4 /home1/wabisabibd/public_html/routing/Bramus/Router/Router.php(378): call_user_func_array(Object(Closure), Array)
+#5 /home1/wabisabibd/public_html/routing/Bramus/Router/Router.php(361): Bramus\Router\Router->invoke(Object(Closure), Array)
+#6 /home1/wabisabibd/public_html/routing/Bramus/Router/Router.php(286): Bramus\Router\Router->handle(Array, true)
+#7 /home1/wabisabibd/public_html/controller/controller.php(38): Bramus\Router\Router->run()
+#8 /home1/wabisabibd/public_html/template/template.php(12): include('/home1/wabisabi...')
+#9 /home1/wabisabibd/public_h in /home1/wabisabibd/public_html/config/config.db.php on line 13
+[08-Feb-2023 00:10:41 Asia/Dhaka] PHP Warning:  include(template/pages/pages.home.php): failed to open stream: No such file or directory in /home1/wabisabibd/public_html/controller/controller.php on line 13
+[08-Feb-2023 00:10:41 Asia/Dhaka] PHP Warning:  include(template/pages/pages.home.php): failed to open stream: No such file or directory in /home1/wabisabibd/public_html/controller/controller.php on line 13
+[08-Feb-2023 00:10:41 Asia/Dhaka] PHP Warning:  include(): Failed opening 'template/pages/pages.home.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/wabisabibd/public_html/controller/controller.php on line 13
+[08-Feb-2023 00:15:32 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:32 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:32 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:32 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:32 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:32 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:32 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:32 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:32 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:32 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:37 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:37 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:37 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:37 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:37 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:37 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:37 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:37 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:37 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 00:15:37 Asia/Dhaka] PHP Warning:  Use of undefined constant di - assumed 'di' (this will throw an Error in a future version of PHP) in /home1/wabisabibd/public_html/template/pages/pages.home.php on line 23
+[08-Feb-2023 01:31:39 Asia/Dhaka] PHP Warning:  include(template/pages/pages.home.php): failed to open stream: No such file or directory in /home1/wabisabibd/public_html/controller/controller.php on line 13
+[08-Feb-2023 01:31:39 Asia/Dhaka] PHP Warning:  include(): Failed opening 'template/pages/pages.home.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/wabisabibd/public_html/controller/controller.php on line 13
+[08-Feb-2023 02:33:15 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in /home1/wabisabibd/public_html/template/pages/pages.listing.php on line 39
+[08-Feb-2023 02:38:15 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in /home1/wabisabibd/public_html/template/pages/pages.listing.php on line 42
+[08-Feb-2023 02:38:38 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in /home1/wabisabibd/public_html/template/pages/pages.listing.php on line 42
+[08-Feb-2023 02:38:48 Asia/Dhaka] PHP Warning:  Invalid argument supplied for foreach() in /home1/wabisabibd/public_html/template/pages/pages.listing.php on line 42

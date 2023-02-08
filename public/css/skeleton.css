@@ -1,0 +1,99 @@
+/* Demo Start */
+#SKELETON_DEMO_WRAPPER .justify-content-center .card {
+  margin-right: 5px;
+}
+
+/*
+ * Responsive Image
+ */
+#SKELETON_DEMO_WRAPPER img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Demo End */
+/* Skeleton start */
+/*
+ * Skeleton wrapper
+ */
+.skel {
+  background: linear-gradient(-45deg, #dddddd, #f0f0f0, #dddddd, #f0f0f0);
+  background-size: 400% 400%;
+  -webkit-animation: skeletonLoading 2.25s ease infinite;
+  -moz-animation: skeletonLoading 2.25s ease infinite;
+  animation: skeletonLoading 2.25s ease infinite;
+  /* width max */
+  max-width: 100%;
+  /* Hide content. */
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  /* Image lock */
+}
+.skel img {
+  min-height: 100px;
+}
+
+/*
+ * Skeleton frames
+ */
+@-webkit-keyframes skeletonLoading {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes skeletonLoading {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes skeletonLoading {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/*
+ * Table skeleton
+ */
+table.skel,
+.skel table:not(.skel) {
+  visibility: hidden;
+}
+
+table.skel:before,
+.skel table:not(.skel):before {
+  visibility: visible;
+  display: table-caption;
+  content: " ";
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(#ebebeb 1px, transparent 0), linear-gradient(90deg, #ebebeb 1px, transparent 0), linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 15%, rgba(255, 255, 255, 0) 30%), linear-gradient(#f0f0f2 35px, transparent 0);
+  background-repeat: repeat;
+  background-size: 1px 35px, calc(100% * 0.1666666666) 1px, 30% 100%, 2px 70px;
+  background-position: 0 0, 0 0, 0 0, 0 0;
+  animation: shine 0.5s infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 0 0, 0 0, 40% 0, 0 0;
+  }
+}
